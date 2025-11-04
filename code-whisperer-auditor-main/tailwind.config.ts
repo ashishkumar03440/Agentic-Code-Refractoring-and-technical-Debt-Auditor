@@ -79,10 +79,12 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)',
+				'gradient-matrix': 'var(--gradient-matrix)',
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
 				'card': 'var(--shadow-card)',
+				'neon': 'var(--shadow-neon)',
 			},
 			transitionProperty: {
 				'smooth': 'var(--transition-smooth)',
@@ -112,7 +114,9 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'matrix-rain': 'matrix-rain 8s linear infinite',
+				'neon-flicker': 'neon-flicker 3s ease-in-out infinite'
 			}
 		}
 	},
