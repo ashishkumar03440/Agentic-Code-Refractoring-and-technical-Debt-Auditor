@@ -1,0 +1,11 @@
+-i https://download.pytorch.org/whl/cpu
+
+torch==2.2.0+cpu
+torchaudio==2.2.0+cpu
+torchvision==0.17.0+cpu
+
+transformers==4.39.3
+tokenizers==0.15.1
+sentencepiece==0.1.99
+huggingface-hub==0.22.2
+numpy==1.26.4
