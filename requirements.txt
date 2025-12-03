@@ -1,12 +1,22 @@
--i https://download.pytorch.org/whl/cpu
-
-torch==2.2.0+cpu
-torchaudio==2.2.0+cpu
-torchvision==0.17.0+cpu
-
-transformers==4.39.3
-tokenizers==0.15.1
+# Core ML/AI Libraries
+torch==2.1.0
+transformers==4.35.2
 sentencepiece==0.1.99
-huggingface-hub==0.22.2
-numpy==1.26.4
+accelerate==0.25.0
+safetensors==0.4.1
 
+# Deep Learning utilities
+numpy==1.24.3
+scipy==1.11.4
+
+# NLP & Processing
+tokenizers==0.15.0
+protobuf==4.25.1
+
+# Utilities
+tqdm==4.66.1
+regex==2023.10.3
+requests==2.31.0
+
+# Optional (for better performance)
+einops==0.7.0
